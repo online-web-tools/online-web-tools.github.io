@@ -11,7 +11,7 @@ const Settings = () => {
     initialValues: {
       tfaRows: 7,
       wsrRows: 7,
-      replace1: "\\",
+      replace1: "\\s",
       replace2: '<span style="color: red">*</span>',
     },
     onSubmit: (values) => {
